@@ -304,8 +304,8 @@ li :hover, .vermais:hover{
         margin-top: 10%;
         margin-right: 10px;
         font-weight: 700;
-        font-size: 25px;
-        text-align:end;
+        text-align: center;
+        font-size: 20px;
     }
     .menutext li{
         margin-bottom: 20px;
