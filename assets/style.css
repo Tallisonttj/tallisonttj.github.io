@@ -180,11 +180,15 @@ li :hover, .vermais:hover{
     text-decoration: none;
     gap: 5px;
 }
-.check img{
-    width: 450px;
-    height: 193px;
+.check{
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/images/sitecodewell.png');
+    background-position: center;
+    background-size: 98% 100%;
+  
+}   
 
-}
 
 /* RESPOSIVIDADE */
 
@@ -211,14 +215,16 @@ li :hover, .vermais:hover{
     .pro{
         width: 150%;;
     }
-
+    .check{
+        width: 100%;
+        height: 100%;
+        background-image: url('../assets/images/sitecodewell.png');
+        background-position: center;
+        background-size: 98% 100%;
+      
+    }
     .social{
         font-size: 12px;
-    }
-    .check img{
-        width: 490px;
-        height: 294px;
-    
     }
 
 }
@@ -325,10 +331,5 @@ li :hover, .vermais:hover{
         background-color: var(--corpadrao);
         color: black;
         border-radius: 0;
-    }
-    .check img{
-        width: 250px;
-        height: 194px;
-    
     }
 }
