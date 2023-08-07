@@ -180,6 +180,11 @@ li :hover, .vermais:hover{
     text-decoration: none;
     gap: 5px;
 }
+.check img{
+    width: 450px;
+    height: 193px;
+
+}
 
 /* RESPOSIVIDADE */
 
@@ -209,6 +214,11 @@ li :hover, .vermais:hover{
 
     .social{
         font-size: 12px;
+    }
+    .check img{
+        width: 490px;
+        height: 294px;
+    
     }
 
 }
@@ -315,5 +325,10 @@ li :hover, .vermais:hover{
         background-color: var(--corpadrao);
         color: black;
         border-radius: 0;
+    }
+    .check img{
+        width: 250px;
+        height: 194px;
+    
     }
 }
